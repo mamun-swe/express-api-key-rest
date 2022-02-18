@@ -1,0 +1,42 @@
+{
+  "name": "express-api-key-authentication",
+  "version": "1.0.0",
+  "description": "An express key based API secuirity.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mamun-swe/express-api-key-rest.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Node.js",
+    "Express.js",
+    "API",
+    "key",
+    "authentication"
+  ],
+  "author": "Abdullah Al Mamun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mamun-swe/express-api-key-rest/issues"
+  },
+  "homepage": "https://github.com/Mamun-swe/express-api-key-rest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "nocache": "^3.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}

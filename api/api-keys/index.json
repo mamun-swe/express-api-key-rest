@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "key": 12345,
+        "name": "app key 1"
+    },
+    {
+        "id": 2,
+        "key": 123452,
+        "name": "app key 2"
+    },
+    {
+        "id": 3,
+        "key": 123453,
+        "name": "app key 3"
+    },
+    {
+        "id": 4,
+        "key": 123454,
+        "name": "app key 4"
+    },
+    {
+        "id": 5,
+        "key": 123455,
+        "name": "app key 5"
+    }
+]
