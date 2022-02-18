@@ -4,9 +4,9 @@
 
 ```yaml
 {
-    Key: api_key, 
-    Value: <Your API key value>, 
-    Add to: Header
+    key: api_key, 
+    value: <Your API key value>, 
+    add to: Header
 }
 ```
 
@@ -23,5 +23,5 @@ http://localhost:4000
 ```
 
 ```yaml
-http://localhost:4000
+http://localhost:4000/my-app-key
 ```
