@@ -31,7 +31,7 @@ if (cluster.isMaster) {
     app.use(bodyParser.json())
     app.use(bodyParser.urlencoded({ extended: true }))
     app.use(nocache())
-    app.use(isValidAppKey)
+    app.use(isValidAppKey) /* User API key middleware to globally */
 
     app.get('/', (req, res) => {
         res.send("WOW! Express app running. 😛😛😛")

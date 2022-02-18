@@ -6,6 +6,7 @@ const isValidAppKey = async (req, res, next) => {
     try {
         const key = req.headers.api_key
 
+        /* Header validation */
         if (!key) {
             return res.status(422).json({
                 status: false,
@@ -15,6 +16,7 @@ const isValidAppKey = async (req, res, next) => {
             })
         }
 
+        /* Match key with JSON keys */
         const isMatchedKey = await jsonKeys.find(item => item.key === parseInt(key))
         if (!isMatchedKey) {
             return res.status(404).json({
@@ -25,6 +27,7 @@ const isValidAppKey = async (req, res, next) => {
             })
         }
 
+        /* Add key details with request */
         req.api_key = isMatchedKey
         next()
     } catch (error) {
